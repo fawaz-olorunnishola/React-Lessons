@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
-export const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://Greatstack:@@##faw*2$-;@cluster0.w4jwl.mongodb.net/food-del').then(()=>console.log("DB Connected"));
+export const connectDB= async ()=>{
+    await mongoose.connect('mongodb+srv://maxitech:maxitech@cluster0.dgdc493.mongodb.net/maxitech').then(()=>console.log("DB connected"));
 }
+
+// mongodb+srv://maxitech:maxitech@cluster0.dgdc493.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/

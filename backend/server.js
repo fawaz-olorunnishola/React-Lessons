@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import { connectDB } from "./config/db.js"
+import maxiRouter from "./routes/maxiRoute.js"
 
 
 // app config
@@ -15,13 +16,16 @@ app.use(cors())
 // db connection
 connectDB();
 
+// api endpoints
+app.use("/api/maxi",maxiRouter)
+
 app.get("/",(req,res)=>{
     res.send("API Working")
 }) 
 
 app.listen(port,()=>{
-    console.log(`Server started on http://localhost:${port}`)
+    console.log(`Server Started on http://localhost:${port}`)
     
 })
 
-// mongodb+srv://Greatstack:<db_password>@cluster0.w4jwl.mongodb.net/?
+// mongodb+srv://maxitech:maxitech@cluster0.dgdc493.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

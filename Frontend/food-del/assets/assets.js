@@ -43,6 +43,8 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import hp_840 from './hp-840.png'
+
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -114,6 +116,10 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
+    },
+    {
+        item_name: "HP",
+        item_image: item_9
     }]
 
 export const food_list = [
@@ -346,5 +352,13 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
+    }
+    , {
+        _id: "33",
+        name: "HP 840",
+        image: hp-840,
+        price: 15,
+        description: "Hp Essentials",
+        category: "Laptops"
     }
 ]
