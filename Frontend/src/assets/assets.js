@@ -33,6 +33,7 @@ import hp_840_g10 from './hp_840_g10.png'
 import len_ideap_flex from './len_ideap_flex.png'
 import len_thinkb_14 from './len_thinkb_14.png'
 import len_thinkp_E16 from './len_thinkp_E16.png'
+import len_legion from './len_legion.png'
 import hp_840 from './hp_840.png'
 import food_5 from './food_5.png'
 import food_6 from './food_6.png'
@@ -277,7 +278,7 @@ export const food_list = [
     }, {
         _id: "20",
         name: "Lenovo Legion",
-        image: len_thinkb_14,
+        image: len_legion,
         price: 15,
         description: "Lenovo Essentials",
         category: "Lenovo"
